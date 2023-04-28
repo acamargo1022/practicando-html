@@ -1,0 +1,35 @@
+body{
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+.container{
+    justify-content: center;
+    display: flex;
+    background-image: url(../img/fondo-textura-pared-ladrillo-blanco_53876-138194\ \(1\).avif);
+   
+}
+
+
+
+
+.form{
+    width: 50%;
+    text-align: center;
+    margin: 10% auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 10%;
+    padding: 2%;
+
+    
+}
+
+.barra{
+    display: block;
+}

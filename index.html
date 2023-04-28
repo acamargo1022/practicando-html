@@ -5,62 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ariel Camargo</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <form action="">
-        <h1>Formulario de Inscripcion</h1>
-        <label for="iname">Nombre</label>
-        <input id="iname" type="text" name="name"> 
-        <br>
+    <div class="container">
+        <div class="form">
+            <h1>Registro</h1>
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span>
+                <label for="">Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="" id="name" required><span class="barra"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="name" required><span class="barra"></span>
+                <label for="">Password</label>
+            </div>
 
-        <label for="lname">Apellido</label>
-        <input id="lname" type="text" name="lastname">
-        <br>
-        <label for="document">Documento</label>
-        <input id="document" type="number" name="documento"> 
-        <br>
-
-        <label for="">Tu Email</label>
-        <input id="iemail" type="email" name="email">
-        <br>
-
-        <label for="cell">Telefono</label>
-        <input id="cell" type="number" name="cellphone"> 
-        <br>
-
-        <label for="">Fecha de nacimiento</label>
-        <input id="fecha" type="date" name="date">
-        <br>
-        Genero
-        <input id="m" type="radio" name="genero">
-        <label for="m">Masculino</label>
-        
-        <input id="f" type="radio" name="genero">
-        <label for="f">Femenino</label>
-        <br>
-        <label for="fil">Adjunte su Documento</label>
-        <input id="fil" type="file" name="file">
-        <br>
-        
-        <label for="">COMENTARIO</label>
-        <input type="text">
-        <br>
-
-        <input type="submit" value="enviar">
-
-        <li> <a href="https://www.google.com.co/" target="_blank">google</a> </li>
-        <li><a href="https://www.bing.com/?setlang=es" target="_blank">bing</a></li>
-        
-       
-
-
-
-
-        
-
-
-
-    </form>
+            <button class="button" type="submit">Registrarse</button>
+        </div>
+    
 
     
 </body>
