@@ -18,18 +18,34 @@ body{
 
 
 .form{
+    font-family:"acme", sans-serif;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 50%;
     text-align: center;
     margin: 10% auto;
-    background-color: white;
     border: 2px solid black;
     border-radius: 5%;
     width: 10%;
     padding: 2%;
+    box-shadow:2px 2px 2px black);
 
     
 }
 
 .barra{
     display: block;
+}
+
+button{
+    font-family:"acme", sans-serif;
+   background-color: white;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: black;
+    height: 40px;
+    font-size: 16px;
+    border:1px solid black;
 }
